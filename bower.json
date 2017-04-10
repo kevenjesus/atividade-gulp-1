@@ -1,0 +1,25 @@
+{
+  "name": "estudos",
+  "description": "estudos bootstrap",
+  "main": "index.js",
+  "authors": [
+    "Celio Batalha"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "curso",
+    "de",
+    "bootstrap"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

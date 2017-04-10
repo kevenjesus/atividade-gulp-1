@@ -1,0 +1,23 @@
+{
+  "name": "estudos",
+  "version": "1.0.0",
+  "description": "estudos bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curso",
+    "de",
+    "bootstrap"
+  ],
+  "author": "Celio Batalha",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
