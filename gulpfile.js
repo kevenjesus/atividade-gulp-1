@@ -1,4 +1,5 @@
 var gulp = require("gulp");
+var sass = require("gulp-sass");
 var del = require("del");
 
 gulp.task("clean-scss", function(){
@@ -11,6 +12,7 @@ gulp.task("clean-html", function(){
 
 gulp.task('move-scss',['clean-scss'],function(){
     return gulp.src('./source/scss/**/*.scss')
+    			 .pipe(sass())
            .pipe(gulp.dest('./dist/css'));
 });
 
