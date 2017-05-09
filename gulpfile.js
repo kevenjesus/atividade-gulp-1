@@ -1,5 +1,6 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
+var htmlmin = require("gulp-htmlmin");
 var del = require("del");
 
 gulp.task("clean-scss", function(){
@@ -18,6 +19,7 @@ gulp.task('move-scss',['clean-scss'],function(){
 
 gulp.task('move-html',['clean-html'],function(){
     return gulp.src('./source/**/*.html')
+    			 .pipe(htmlmin({collapseWhitespace: true}))
            .pipe(gulp.dest('./dist/'));
 });
 
